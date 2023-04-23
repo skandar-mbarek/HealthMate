@@ -20,6 +20,7 @@ public class RegisterRequest {
 
     @NotBlank(message = "First name is required")
     private String firstName;
+    // todo test git
     @NotBlank(message = "Last name is required")
     private String lastName;
     @NotBlank(message = "region is required")
